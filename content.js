@@ -107,8 +107,8 @@ chrome.storage.sync.get('mode', function (items) {
                     vir = vir + 5;
                 }
 
-                r[25].checked = true;
-                r[144].checked = true;
+                r[30].checked = true;
+                r[149].checked = true;
 
             })
             document.getElementById('tq2').addEventListener('click', function () {
@@ -122,8 +122,8 @@ chrome.storage.sync.get('mode', function (items) {
                     vir = vir + 5;
                 }
 
-                r[25].checked = true;
-                r[144].checked = true;
+                r[30].checked = true;
+                r[149].checked = true;
 
             })
             document.getElementById('tq3').addEventListener('click', function () {
@@ -137,8 +137,8 @@ chrome.storage.sync.get('mode', function (items) {
                     vir = vir + 5;
                 }
 
-                r[25].checked = true;
-                r[144].checked = true;
+                r[30].checked = true;
+                r[149].checked = true;
 
             })
             document.getElementById('tq4').addEventListener('click', function () {
@@ -148,12 +148,12 @@ chrome.storage.sync.get('mode', function (items) {
                 var vir = 4 + 7;
 
                 for (i; i < 32; i++) {
-                    r[vir].checkexd = true;
+                    r[vir].checked = true;
                     vir = vir + 5;
                 }
 
-                r[25].checked = true;
-                r[144].checked = true;
+                r[30].checked = true;
+                r[149].checked = true;
 
             })
             document.getElementById('tq5').addEventListener('click', function () {
@@ -167,8 +167,8 @@ chrome.storage.sync.get('mode', function (items) {
                     vir = vir + 5;
                 }
 
-                r[25].checked = true;
-                r[144].checked = true;
+                r[30].checked = true;
+                r[149].checked = true;
 
             })
 
