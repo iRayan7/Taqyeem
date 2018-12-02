@@ -1,0 +1,31 @@
+{
+    "name": "Taqyeem",
+    "version": "0.5",
+    "manifest_version": 2,
+    "description": "اضافة لتسريع عملية تقييم المحاضرين",
+    "content_scripts": [{
+        "matches": [
+            "https://edugate.ksu.edu.sa/ksu/ui/student/student_evaluation/index/activitiesInstructorsIndex.faces",
+            "https://edugate.ksu.edu.sa/ksu/ui/student/student_evaluation/index/evaluationTypesIndex.faces",
+            "https://edugate.ksu.edu.sa/ksu/ui/student/student_evaluation/index/evalQuestionsIndex.faces",
+            "http://edugate.ksu.edu.sa/ksu/ui/student/student_evaluation/index/activitiesInstructorsIndex.faces",
+            "http://edugate.ksu.edu.sa/ksu/ui/student/student_evaluation/index/evaluationTypesIndex.faces",
+            "http://edugate.ksu.edu.sa/ksu/ui/student/student_evaluation/index/evalQuestionsIndex.faces"
+
+        ],
+        "js": ["content.js"],
+        "run_at": "document_end"
+    }],
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "64": "64.png",
+        "48": "48.png",
+        "128": "128.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "تسريع عملية تقييم المحاضرين"
+    }
+}
