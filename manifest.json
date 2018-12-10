@@ -1,6 +1,6 @@
 {
     "name": "Taqyeem",
-    "version": "0.6",
+    "version": "0.61",
     "manifest_version": 2,
     "description": "اضافة لتسريع عملية تقييم المحاضرين",
     "content_scripts": [{
